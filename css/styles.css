@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Roboto', sans-serif;
+}
+
+.main-header {
+  background-image: url(../img/topo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 960px;
+}
+
+.head-menu {
+  background-color: #162028;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: .8rem;
+  padding-left: 4rem;  
+  align-items: center;
+}
+
+.head-menu h1 {
+  color: white;
+  font-family:'Italiana', serif;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.head-menu a {
+  text-decoration: none;
+  color: #425564;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.head-menu a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.head-menu li {
+  display: inline-block;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  list-style-type: none;
+  padding: 1.9rem;
+  font-size: 1rem;
+}
+
+.container-cards {
+  width: 100%;
+  height: 960px;
+}
+
+img {
+  border-radius: 8px;  
+}
+
+.descriptions h2 {
+  text-align: center;
+  padding-top: 7.5rem;
+  padding-bottom: 3.1rem;
+  font-size: 3.1rem;
+  font-family:'Italiana', serif;
+}
+
+.descriptions p {
+  text-align: center;
+  line-height: 2.5rem;
+  width: 50%;
+  margin: 0 auto;
+  color: #555;
+  font-size: 1rem;
+  padding-bottom: 6.2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cards li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-top: .7rem;
+  color: #555;
+  letter-spacing: 2px;
+}
+
+.cards p {
+  text-align: center;
+  padding-top: .7rem;
+  color: #555;
+}
+
+.descriptions-footer {
+  background-image: url(../img/bg_detalhe.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #003d52;
+  width: 100%;
+  height: 960px;
+}
+
+.descriptions-footer h3 {
+  color: white;
+  width: 80%;
+  font-size: 5rem;
+  font-family:'Viaoda Libre', cursive;
+  padding-left: 6rem;
+  padding-top: 9.2rem;
+}
+
+.descriptions-footer p {
+  color: white;
+  width: 50%;
+  font-size: 1.4rem;
+  padding-left: 6.2rem;
+  padding-top: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+}
+
+footer {
+  background-color:#0b171f;
+  padding: 1.3rem;
+  text-align: center;
+  color: #6f8597;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
